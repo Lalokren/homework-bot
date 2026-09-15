@@ -1,0 +1,23 @@
+# Секреты и конфигурация — НЕ коммитим
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# База данных и временные файлы
+*.db
+*.db-journal
+*.sqlite3
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
